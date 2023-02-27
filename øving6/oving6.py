@@ -17,7 +17,7 @@ d = 4.5e-3
 l = 12e-2
 V = 18
 
-C = (K1+K2)*scipy.constants.epsilon_0*l**2/(4*d)
+C = (K1+K2)*scipy.constants.epsilon_0*l**2/(2*d)
 
 print(f'Kapasitans = {C:.2e} F')
 
